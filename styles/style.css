@@ -1,0 +1,43 @@
+/** General **/
+
+.sh-clear {
+	clear: both;
+}
+
+.sh-ppt-head {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.sh-ppt-title {
+	width: 50%;
+	float: left;
+}
+
+.sh-ppt-date {
+	width: 50%;
+	float: right;
+}
+
+.sh-ppt-content {
+	width: 100%;
+}
+
+.private-post {
+	margin: 20px auto;
+}
+/** Right sidebar **/
+
+.sh-right-sidebar {
+	float: right;
+	width: 30%;
+}
+
+.sh-right-sidebar ul {
+	list-style: none;
+}
+
+.post-type-archive-private-post .private-post {
+	width: 70%;
+	float: left;
+}
