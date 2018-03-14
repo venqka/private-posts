@@ -13,6 +13,14 @@ Version: 1.0
 include( 'ppt-settings.php' );
 include( 'ppt-functions.php' );
 
+function pp_plugin_settings_link( $links ) {
+	$pp_settings_link = array(
+ 		'<a href="' . admin_url( 'edit.php?post_type=private-post&page=ppt-settings' ) . '">Settings</a>',
+ 	);
+	return array_merge( $links, $pp_settings_link );
+}
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'pp_plugin_settings_link' );
+
 /***********************************************
 	Load textdomain
 ***********************************************/
