@@ -11,7 +11,7 @@
 
 function pp_settings_page() {
 	add_submenu_page(
-		'options-general.php',
+		'edit.php?post_type=private-post',
 		__( 'Private Posts Settings', 'pp' ), 	//title
 		__( 'Private Posts Settings', 'pp' ), 	//menu title
 		'manage_options', 						//capabilities
