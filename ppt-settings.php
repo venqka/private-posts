@@ -63,7 +63,7 @@ function pp_init() {
 
 
 	register_setting( 
-		'ppt',											//option group
+		'sh-ppt',											//option group
 		'master-password',								//option name
 		'master_password_sanitization'					//sanitize callback
 	);
